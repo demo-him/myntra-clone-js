@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myntra Clone JS</title>
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="">
+      <!-- Header -->
+      <header class="flex items-center pl-12 pr-8 shadow-sm justify-between">
+        <!-- Left Section -->
+        <div class="flex gap-12 items-center">
+          <!-- Logo -->
+          <img src="./Assets/logo.webp" alt="" class="size-10" />
+
+          <!-- Navbar -->
+          <nav>
+            <ul
+              class="flex gap-4 [&>li]:py-6 [&>li]:text-[10px] [&>li]:border-b-2 [&>li]:hover:border-pink-500 [&>li]:border-transparent [&>li]:px-2 uppercase [&>li]:font-bold text-slate-700"
+            >
+              <li>
+                <a href="#"> Men </a>
+              </li>
+              <li>
+                <a href="#"> Women </a>
+              </li>
+              <li>
+                <a href="#"> Kids </a>
+              </li>
+              <li>
+                <a href="#"> Home & Living </a>
+              </li>
+              <li>
+                <a href="#"> Beauty </a>
+              </li>
+              <li>
+                <a href="#"> Studio </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Right Section -->
+        <div class="flex gap-8">
+          <!-- Search Bar -->
+          <div
+            class="rounded bg-gray-100 py-0.5 px-2 flex items-center w-[500px]"
+          >
+            <i class="fa-solid fa-magnifying-glass text-xs text-gray-400"></i>
+            <input
+              type="text"
+              placeholder="Search..."
+              class="placeholder:text-xs py-1 px-2 text-xs flex-1 outline-none"
+            />
+          </div>
+
+          <!-- Icons Navs -->
+          <div
+            class="flex items-center text-xs gap-4 [&>div>div>i]:text-gray-500 [&>div>div>div]:text-slate-700"
+          >
+            <!-- Profile -->
+            <div class="flex flex-col items-center">
+              <div><i class="fa-regular fa-user"></i></div>
+              <div class="text-[10px] font-semibold">Profile</div>
+            </div>
+            <!-- Wishlist -->
+            <div class="flex flex-col items-center">
+              <div><i class="fa-regular fa-heart"></i></div>
+              <div class="text-[10px] font-semibold">Wishlist</div>
+            </div>
+            <!-- Bag -->
+            <div class="flex flex-col items-center">
+              <div><i class="fa-solid fa-bag-shopping"></i></div>
+              <div class="text-[10px] font-semibold">Bag</div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Section -->
+      <main>Main Section</main>
+
+      <!-- Footer -->
+      <footer>Footer</footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
